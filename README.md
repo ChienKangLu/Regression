@@ -4,3 +4,6 @@ Regression is used to find a model for continuous variables. The model can be us
 # Skill
 + Variable transformation: Use linear regression to solve non-linear model
 + Find regression parameter
+
+# Example
+![image](https://github.com/ChienKangLu/Regression/blob/master/regression/img1.png)
