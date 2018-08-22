@@ -40,6 +40,14 @@ def draw(X, Y,color):
     plt.scatter(X, Y, color=color, marker='o', alpha=0.5, linestyle='None', picker=True)
 
 
+def drawLine(X, Y, color):
+    plt.plot(X, Y, color=color, linestyle='-', picker=True)
+
+def save(imgIdx):
+    plt.savefig(imgName+str(imgIdx))
+    imgIdx+=1
+    return imgIdx
+
 if __name__ == '__main__':
     csvfile = open('hw1_data.csv', newline="\n")
     reader = csv.DictReader(csvfile, delimiter=',')
@@ -74,11 +82,15 @@ if __name__ == '__main__':
     print("real_alpha",real_alpha)
 
     X, Y = estimatedata(real_alpha,beta)
-    draw(X, Y, "red")
+    drawLine(X, Y, "red")
     plt.xlabel("x")
     plt.ylabel("y")
 
+    imgName = "img"
+    save(1)
     plt.show()
+
+
 
 
 
