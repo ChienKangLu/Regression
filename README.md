@@ -13,7 +13,11 @@ In ML Lecture 1, I follow the tutorial and practice to use gradient descent to s
 + Not using the linear regression closed form
 + If using the pure gradient descent, it will take too much time to find the optimal parameter. Therefore, we need to give different learning rates to b and w, and update them in each iteration. The cool method is called **Adagrad**.
 + **Adagrad**: I remeber my professor tell us that it can **normalize** the gradient at each iteration by **gradient sd**
+### Pure gradient descent
+<img width="400" src="https://github.com/ChienKangLu/Regression/blob/master/ML_Lecture/gradient.png" />
 
+### Gradient descent with Adagrad
+<img width="400" src="https://github.com/ChienKangLu/Regression/blob/master/ML_Lecture/gradient%20with%20adagrad.png" />
 
 
 ## Reference
