@@ -6,19 +6,24 @@ Regression is used to find a model for continuous variables. The model can be us
 + Find regression parameter
 
 ## Example
-![image](https://github.com/ChienKangLu/Regression/blob/master/regression/img1.png)
+<img width="400" src="https://github.com/ChienKangLu/Regression/blob/master/regression/img1.png" />
 
 ## Practice
 In ML Lecture 1, I follow the tutorial and practice to use gradient descent to solve linear regression.
 + Not using the linear regression closed form
 + If using the pure gradient descent, it will take too much time to find the optimal parameter. Therefore, we need to give different learning rates to b and w, and update them in each iteration. The cool method is called **Adagrad**.
 + **Adagrad**: I remeber my professor tell us that it can **normalize** the gradient at each iteration by **gradient sd**
-### Pure gradient descent
-<img width="400" src="https://github.com/ChienKangLu/Regression/blob/master/ML_Lecture/gradient.png" />
 
-### Gradient descent with Adagrad
-<img width="400" src="https://github.com/ChienKangLu/Regression/blob/master/ML_Lecture/gradient%20with%20adagrad.png" />
-
+<Table>
+   <tr>
+      <td><img width="400" src="https://github.com/ChienKangLu/Regression/blob/master/ML_Lecture/gradient.png" /></td>
+      <td><img width="400" src="https://github.com/ChienKangLu/Regression/blob/master/ML_Lecture/gradient%20with%20adagrad.png" /></td>
+   </tr>
+   <tr>
+      <td align="center">Pure gradient descent</td>
+      <td align="center">Gradient descent with Adagrad</td>
+   </tr>
+</Table>
 
 ## Reference
 + [ML Lecture 1: Regression - Demo] (https://www.youtube.com/watch?v=1UqCjFQiiy0)
