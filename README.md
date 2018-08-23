@@ -10,7 +10,7 @@ Regression is used to find a model for continuous variables. The model can be us
 
 ## Practice
 In ML Lecture 1, I follow the tutorial and practice to use gradient descent to solve linear regression.
-+ Not using the linear regression closed form
++ Without using the linear regression closed form
 + If using the pure gradient descent, it will take too much time to find the optimal parameter. Therefore, we need to give different learning rates to b and w, and update them in each iteration. The cool method is called **Adagrad**.
 + **Adagrad**: I remeber my professor tell us that it can **normalize** the gradient at each iteration by **gradient sd**
 
