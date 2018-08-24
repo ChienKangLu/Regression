@@ -25,6 +25,11 @@ In ML Lecture 1, I follow the tutorial and practice to use gradient descent to s
    </tr>
 </Table>
 
+## Regression close form for multiple dimensional vector
+![image](http://latex.codecogs.com/gif.latex?Training&space;data&space;=&space;\{(x_i,y_i)\},i=1\cdots&space;m)<br/>
+![image](http://latex.codecogs.com/gif.latex?y_i=\alpha&plus;\beta&space;_1x_i_1&plus;\beta&space;_2x_i_2&plus;\cdots&plus;\beta_nx_i_n)<br/>
+![image](http://latex.codecogs.com/gif.latex?x_i%3D%5Cbegin%7Bbmatrix%7Dx_i_1%5C%5Cx_i_2%5C%5C%5Cvdots%5C%5C%20x_i_n%5Cend%7Bbmatrix%7D_%7Bn*1%7D)<br>
+![imahe](http://latex.codecogs.com/gif.latex?%5Cbeta%3D%5Cbegin%7Bbmatrix%7D%5Calpha%5C%5C%5Cbeta_1%5C%5C%5Cbeta_2%5C%5C%5Cvdots%5C%5C%5Cbeta_n%5Cend%7Bbmatrix%7D_%7B%28n&plus;1%29*1%7D)
 ## Reference
 + [ML Lecture 1: Regression - Demo] (https://www.youtube.com/watch?v=1UqCjFQiiy0)
 + [Hung-yi Lee ML Course] (http://speech.ee.ntu.edu.tw/~tlkagk/courses_ML17_2.html)
