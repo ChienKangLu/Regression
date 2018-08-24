@@ -4,41 +4,6 @@ Regression is used to find a model for continuous variables. The model can be us
 ## Regression closed form
 + Variable transformation: use linear regression to solve non-linear model
 + Find regression parameter
-+ <Table>
-<tr>
-<td><img src="https://latex.codecogs.com/svg.latex?%5Cinline%20y%3D%5Calpha&plus;%5Cbeta%20x" /></td>
-</tr>   
-<tr>
-<td><img src="https://latex.codecogs.com/svg.latex?L%28%5Calpha%2C%5Cbeta%29%3D%5Csum%5Cnolimits_i%28y_i-%28%5Calpha&plus;%7B%5Cbeta%7Dx_i%29%29%5E2%3D%5Csum%5Cnolimits_i%28y_i-%5Calpha-%7B%5Cbeta%7Dx_i%29%5E2" /></td>
-</tr>
-<tr>
-<td><img src="https://latex.codecogs.com/svg.latex?%5Cfrac%7B%5Cpartial%20L%7D%7B%5Cpartial%20%5Calpha%7D%3D%5Csum%5Cnolimits_i%202%28y_i-%5Calpha-%5Cbeta%20x_i%29%28-1%29%3D0" /><br/>
-<img src="https://latex.codecogs.com/svg.latex?%5Cfrac%7B%5Cpartial%20L%7D%7B%5Cpartial%20%5Cbeta%7D%3D%5Csum%5Cnolimits_i%202%28y_i-%5Calpha-%5Cbeta%20x_i%29%28-x_i%29%3D0" />
-</td>
-</tr>
-<tr>
-<td><img src="https://latex.codecogs.com/svg.latex?%5Cleft%5C%7B%20%5Cbegin%7Barray%7D%7Blr%7D%20%5Csum%5Cnolimits_i%20y_i-n%5Calpha-%5Cbeta%5Csum%5Cnolimits_i%20x_i%3D0%20%5Ccdots%5Ccdots%20%5Ctextcircled%7B1%7D%5C%5C%20%5Csum%5Cnolimits_i%20x_i%20y_i-%5Calpha%5Csum%5Cnolimits_i%20x_i-%5Cbeta%5Csum%5Cnolimits_i%20%7Bx_i%7D%5E2%3D0%20%5Ccdots%5Ccdots%20%5Ctextcircled%7B2%7D%20%5Cend%7Barray%7D%20%5Cright." /></td>
-</tr>
-<tr>
-<td><img src="https://latex.codecogs.com/svg.latex?%5Ctextcircled%7B1%7D%5Ctimes%20%5Csum%5Cnolimits_i%20x_i%20%5Cqquad%20%5Ctextcircled%7B2%7D%5Ctimes%20n" /></td>
-</tr>
-<tr>
-<td><img src="https://latex.codecogs.com/svg.latex?%5Cleft%5C%7B%20%5Cbegin%7Barray%7D%7Blr%7D%20%5Csum%5Cnolimits_i%20y_i%20%5Csum%5Cnolimits_i%20x_i-n%5Calpha%5Csum%5Cnolimits_i%20x_i-%5Cbeta%7B%28%5Csum%5Cnolimits_i%20x_i%29%5E2%7D%3D0%20%5Ccdots%5Ccdots%20%5Ctextcircled%7B1%7D%5C%5C%20n%5Csum%5Cnolimits_i%20x_i%20y_i-n%5Calpha%5Csum%5Cnolimits_i%20x_i-n%5Cbeta%5Csum%5Cnolimits_i%20%7Bx_i%7D%5E2%3D0%20%5Ccdots%5Ccdots%20%5Ctextcircled%7B2%7D%20%5Cend%7Barray%7D%20%5Cright." /></td>
-</tr>
-<tr>
-<td><img src="https://latex.codecogs.com/svg.latex?%5Ctextcircled%7B1%7D-%5Ctextcircled%7B2%7D" /></td>
-</tr>
-<tr>
-<td><img src="https://latex.codecogs.com/svg.latex?%5Csum%5Cnolimits_i%20x_i%20%5Csum%5Cnolimits_i%20y_i%20-%20n%5Csum%5Cnolimits_i%20x_i%20y_i%20%3D%20%5Cbeta%7B%28%28%5Csum%5Cnolimits_i%20x_i%29%5E2-n%5Csum%5Cnolimits_i%20x_i%5E2%29%7D" /></td>
-</tr>
-<tr>
-<td><img src="https://latex.codecogs.com/svg.latex?%5Clarge%20%5Cbegin%7Bmatrix%7D%20%5Cbeta%20%26%20%3D%20%26%20%5Cfrac%7Bn%5Csum%5Cnolimits_i%20x_i%20y_i-%5Csum%5Cnolimits_i%20x_i%20%5Csum%5Cnolimits_i%20y_i%7D%7Bn%5Csum%5Cnolimits_i%20x_i%5E2-%28%5Csum%5Cnolimits_i%20x_i%29%5E2%7D%20%5C%5C%20%5C%5C%20%26%3D%20%26%5Cfrac%7B%5Csum%5Cnolimits_i%20x_i%20y_i-%5Cfrac%7B1%7D%7Bn%7D%5Csum%5Cnolimits_i%20x_i%20%5Csum%5Cnolimits_i%20y_i%7D%7B%5Csum%5Cnolimits_i%20x_i%5E2-%5Cfrac%7B1%7D%7Bn%7D%28%5Csum%5Cnolimits_i%20x_i%29%5E2%7D%20%5C%5C%20%5C%5C%20%26%3D%20%26%20%5Cfrac%7B%5Csum%5Cnolimits_i%20x_i%20y_i-n%5Cmu_x%5Cmu_y%20%7D%7B%5Csum%5Cnolimits_i%20x_i%5E2-n%5Cmu_x%5E2%7D%20%5C%5C%20%5C%5C%20%26%3D%20%26%20%5Cfrac%7B%5Csum%5Cnolimits_i%20%28x_i-%5Cmu_x%29%28y_i-%5Cmu_y%29%7D%7B%5Csum%5Cnolimits_i%20%28x_i-%5Cmu_x%29%5E2%7D%20%5Cend%7Bmatrix%7D" /></td>
-</tr>
-<tr>
-<td><img src="https://latex.codecogs.com/svg.latex?%5Cbegin%7Barray%7D%7Blr%7D%20n%5Calpha%20%3D%20%5Csum%5Cnolimits_i%20y_i-%5Cbeta%5Csum%5Cnolimits_i%20x_i%20%5C%5C%20%5Calpha%20%3D%20%5Cmu_y-%5Cbeta%5Cmu_x%20%5Cend%7Barray%7D" /></td>
-</tr>
-</Table>
-+ 1
 
 ### Practice
 <img width="400" src="https://github.com/ChienKangLu/Regression/blob/master/regression/img1.png" />
