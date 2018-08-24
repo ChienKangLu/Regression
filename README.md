@@ -60,11 +60,12 @@ In ML Lecture 1, I follow the tutorial and practice to use gradient descent to s
 </p>
 
 <p>
-<i><b>X</b></i><i><b>&beta;</b></i> can be viewd as a hyperspace in <i><b>R</b></i><sup><i>m</i></sup> spanned by the <i>n</i>+1 columns of <i><b>X</b></i>. <i><b>X</b></i> is fixed and <i><b>&beta;</b></i> is variable. We want to find the best <i><b>&beta;</b></i> so that the error will be minimized. Now, we imagine that all errors are 0, <i><b>y&#770;</b></i> is the projection of <i><b>y</b></i> onto the hyperplane spanned by <i><b>X</b></i>
+<i><b>X</b></i><i><b>&beta;</b></i> can be viewd as a hyperspace in <i><b>R</b></i><sup><i>m</i></sup> spanned by the <i>n</i>+1 columns of <i><b>X</b></i>. <i><b>X</b></i> is fixed and <i><b>&beta;</b></i> is variable. We want to find the best <i><b>&beta;</b></i> so that the error will be minimized. Now, we imagine that if all errors are 0, <i><b>y&#770;</b></i> is the projection of <i><b>y</b></i> onto the hyperplane spanned by <i><b>X</b></i>
 </p>
 <p align="center">
 <img src="https://latex.codecogs.com/svg.latex?%5Chat%7B%5Ctextbf%7B%5Ctextit%7By%7D%7D%7D%3D%5Ctextbf%7B%5Ctextit%7BX%7D%7D%24%5Cmathit%7B%5Cboldmath%20%24%5Chat%5Cbeta%24%7D%24" />
 </p>
+
 
 ## Reference
 + [ML Lecture 1: Regression - Demo] (https://www.youtube.com/watch?v=1UqCjFQiiy0)
