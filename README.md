@@ -26,10 +26,10 @@ In ML Lecture 1, I follow the tutorial and practice to use gradient descent to s
 </Table>
 
 ## Regression close form for multiple dimensional vector
-![image](http://latex.codecogs.com/gif.latex?Training&space;data&space;=&space;\{(x_i,y_i)\},i=1\cdots&space;m)<br/>
+![image](http://latex.codecogs.com/svg.latex?data%20%3D%20%5C%7B%28x_i%2Cy_i%29%5C%7D%2Ci%3D1%5Ccdots%20m)<br/>
 ![image](http://latex.codecogs.com/gif.latex?y_i=\alpha&plus;\beta&space;_1x_i_1&plus;\beta&space;_2x_i_2&plus;\cdots&plus;\beta_nx_i_n)<br/>
-![image](http://latex.codecogs.com/gif.latex?x_i%3D%5Cbegin%7Bbmatrix%7Dx_i_1%5C%5Cx_i_2%5C%5C%5Cvdots%5C%5C%20x_i_n%5Cend%7Bbmatrix%7D_%7Bn*1%7D)<br>
-![imahe](http://latex.codecogs.com/gif.latex?%5Cbeta%3D%5Cbegin%7Bbmatrix%7D%5Calpha%5C%5C%5Cbeta_1%5C%5C%5Cbeta_2%5C%5C%5Cvdots%5C%5C%5Cbeta_n%5Cend%7Bbmatrix%7D_%7B%28n&plus;1%29*1%7D)
+![image](http://latex.codecogs.com/svg.latex?%5Ctextbf%7B%5Ctextit%7Bx%7D%7D_%5Ctextbf%7B%5Ctextit%7Bi%7D%7D%3D%5Cbegin%7Bbmatrix%7Dx_i_1%20%5C%5Cx_i_2%5C%5C%5Cvdots%5C%5C%20x_i_n%5Cend%7Bbmatrix%7D_%7Bn*1%7D)<br>
+![imahe](http://latex.codecogs.com/svg.latex?%24%5Cmathit%20%7B%5Cboldmath%20%24%5Cbeta%24%7D%20%24%3D%5Cbegin%7Bbmatrix%7D%5Calpha%5C%5C%5Cbeta_1%5C%5C%5Cbeta_2%5C%5C%5Cvdots%5C%5C%5Cbeta_n%5Cend%7Bbmatrix%7D_%7B%28n&plus;1%29*1%7D)
 ## Reference
 + [ML Lecture 1: Regression - Demo] (https://www.youtube.com/watch?v=1UqCjFQiiy0)
 + [Hung-yi Lee ML Course] (http://speech.ee.ntu.edu.tw/~tlkagk/courses_ML17_2.html)
