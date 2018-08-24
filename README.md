@@ -8,7 +8,7 @@ Regression is used to find a model for continuous variables. The model can be us
 ## Example
 <img width="400" src="https://github.com/ChienKangLu/Regression/blob/master/regression/img1.png" />
 
-## Practice
+## Gradient descent to solve linear regression
 In ML Lecture 1, I follow the tutorial and practice to use gradient descent to solve linear regression.
 + Without using the linear regression closed form
 + If using the pure gradient descent, it will take too much time to find the optimal parameter. Therefore, we need to give different learning rates to b and w, and update them in each iteration. The cool method is called **Adagrad**.
@@ -78,9 +78,17 @@ Obviously, <i><b>y</b></i>-<i><b>y&#770;</b></i> is orthogonal to the columns of
 <img src="https://latex.codecogs.com/svg.latex?%24%5Cmathit%7B%5Cboldmath%24%5Chat%5Cbeta%24%7D%24%3D%7B%28%7B%5Ctextbf%7B%5Ctextit%7BX%7D%7D%7D%27%7B%5Ctextbf%7B%5Ctextit%7BX%7D%7D%7D%29%7D%5E%7B-1%7D%7B%5Ctextbf%7B%5Ctextit%7BX%7D%7D%7D%27%5Ctextbf%7B%5Ctextit%7By%7D%7D" />
 </p>
 
+### Practice
+I use <img src="https://latex.codecogs.com/svg.latex?%5Cinline%20y%3D%5Calpha%20&plus;%5Cbeta_1x_1%20&plus;%5Cbeta_2x_2" /> as my linear regression model and solve <i><b>&beta;</b></i>. It will get a plane in the space of <i><b>R</b></i><sup>2</sup>.
+<p align="center">
+<img width="400" src="https://github.com/ChienKangLu/Regression/blob/master/Mutilple-linear-regression/plane.png" />
+</p>
+
+
 
 
 ## Reference
++ AI course in NTUST
 + [ML Lecture 1: Regression - Demo] (https://www.youtube.com/watch?v=1UqCjFQiiy0)
 + [Hung-yi Lee ML Course] (http://speech.ee.ntu.edu.tw/~tlkagk/courses_ML17_2.html)
 + [Multiple Linear Regression] (http://mezeylab.cb.bscb.cornell.edu/labmembers/documents/supplement%205%20-%20multiple%20regression.pdf)
