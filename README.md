@@ -59,6 +59,9 @@ In ML Lecture 1, I follow the tutorial and practice to use gradient descent to s
 <img src="https://latex.codecogs.com/svg.latex?L%28%24%5Cmathit%7B%5Cboldmath%20%24%5Cbeta%24%7D%24%29%3D%28%5Ctextbf%7B%5Ctextit%7By%7D%7D-%5Ctextbf%7B%5Ctextit%7BX%7D%7D%20%24%5Cmathit%7B%5Cboldmath%20%24%5Cbeta%24%7D%24%29%5E%7B%27%7D%28%5Ctextbf%7B%5Ctextit%7By%7D%7D-%5Ctextbf%7B%5Ctextit%7BX%7D%7D%20%24%5Cmathit%7B%5Cboldmath%20%24%5Cbeta%24%7D%24%29" />
 </p>
 
+<p>
+<i><b>X</b></i><i><b>&beta;</b></i> can be viewd as a hyperspace in <i><b>R</b></i><sup><i>m</i></sup> spanned by the <i>n</i>+1 columns of <i><b>X</b></i>. <i><b>X</b></i> is fixed and <i><b>&beta;</b></i> is variable. We want to find the best <i><b>&beta;</b></i> so that the error will be minimized.
+</p>
 
 ## Reference
 + [ML Lecture 1: Regression - Demo] (https://www.youtube.com/watch?v=1UqCjFQiiy0)
