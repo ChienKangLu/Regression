@@ -83,5 +83,5 @@ Obviously, <i><b>y</b></i>-<i><b>y&#770;</b></i> is orthogonal to the columns of
 ## Reference
 + [ML Lecture 1: Regression - Demo] (https://www.youtube.com/watch?v=1UqCjFQiiy0)
 + [Hung-yi Lee ML Course] (http://speech.ee.ntu.edu.tw/~tlkagk/courses_ML17_2.html)
-+ [Multiple Linear Regression](http://mezeylab.cb.bscb.cornell.edu/labmembers/documents/supplement%205%20-%20multiple%20regression.pdf)
++ [Multiple Linear Regression] (http://mezeylab.cb.bscb.cornell.edu/labmembers/documents/supplement%205%20-%20multiple%20regression.pdf)
 
