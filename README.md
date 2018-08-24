@@ -49,6 +49,15 @@ In ML Lecture 1, I follow the tutorial and practice to use gradient descent to s
 <img src="https://latex.codecogs.com/svg.latex?%5Ctextbf%7B%5Ctextit%7BX%7D%7D%20%3D%20%5Cbegin%7Bbmatrix%7D%201%26%20x_i_1%20%26%20x_i_1%20%26%20%5Ccdots%20%26%20x_i_n%20%5C%5C%20%26%20%26%20%5Cvdots%20%26%20%26%5C%5C%201%26%20x_m_1%20%26%20x_m_1%20%26%20%5Ccdots%20%26%20x_m_n%20%5Cend%7Bbmatrix%7D_%7Bm*%28n&plus;1%29%7D" />
 </p>
 
+<p>We assume the linear regression model is</p>
+<p align="center">
+<img src="https://latex.codecogs.com/svg.latex?%5Ctextbf%7B%5Ctextit%7By%7D%7D%20%3D%20%5Ctextbf%7B%5Ctextit%7BX%7D%7D%20%24%5Cmathit%7B%5Cboldmath%20%24%5Cbeta%24%7D%24%20&plus;%20%5Ctextbf%7B%5Ctextit%7Berror%7D%7D" />
+</p>
+
+<p>To minimize error, the loss function is</p>
+<p align="center">
+<img src="https://latex.codecogs.com/svg.latex?L%28%24%5Cmathit%7B%5Cboldmath%20%24%5Cbeta%24%7D%24%29%3D%28%5Ctextbf%7B%5Ctextit%7By%7D%7D-%5Ctextbf%7B%5Ctextit%7BX%7D%7D%20%24%5Cmathit%7B%5Cboldmath%20%24%5Cbeta%24%7D%24%29%5E%7B%27%7D%28%5Ctextbf%7B%5Ctextit%7By%7D%7D-%5Ctextbf%7B%5Ctextit%7BX%7D%7D%20%24%5Cmathit%7B%5Cboldmath%20%24%5Cbeta%24%7D%24%29" />
+</p>
 
 
 ## Reference
