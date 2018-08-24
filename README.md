@@ -71,9 +71,17 @@ In ML Lecture 1, I follow the tutorial and practice to use gradient descent to s
 Obviously, <i><b>y</b></i>-<i><b>y&#770;</b></i> is orthogonal to the columns of <i><b>X</b></i>, we can utilize this property to get the best <i><b>&beta;</b></i> instead of solving directly the loss function by partial differential,
 </p>
 
+<p align="center">
+<img src="https://latex.codecogs.com/svg.latex?%7B%5Ctextbf%7B%5Ctextit%7BX%7D%7D%7D%27%28%5Ctextbf%7B%5Ctextit%7By%7D%7D-%5Ctextbf%7B%5Ctextit%7BX%7D%7D%24%5Cmathit%7B%5Cboldmath%20%24%5Chat%5Cbeta%24%7D%24%29%3D0" /><br/>
+<img src="https://latex.codecogs.com/svg.latex?%7B%5Ctextbf%7B%5Ctextit%7BX%7D%7D%7D%27%5Ctextbf%7B%5Ctextit%7By%7D%7D-%7B%5Ctextbf%7B%5Ctextit%7BX%7D%7D%7D%27%7B%5Ctextbf%7B%5Ctextit%7BX%7D%7D%7D%24%5Cmathit%7B%5Cboldmath%20%24%5Chat%5Cbeta%24%7D%3D0" />
+<br/>
+<img src="https://latex.codecogs.com/svg.latex?%24%5Cmathit%7B%5Cboldmath%24%5Chat%5Cbeta%24%7D%24%3D%7B%28%7B%5Ctextbf%7B%5Ctextit%7BX%7D%7D%7D%27%7B%5Ctextbf%7B%5Ctextit%7BX%7D%7D%7D%29%7D%5E%7B-1%7D%7B%5Ctextbf%7B%5Ctextit%7BX%7D%7D%7D%27%5Ctextbf%7B%5Ctextit%7By%7D%7D" />
+</p>
+
 
 
 ## Reference
 + [ML Lecture 1: Regression - Demo] (https://www.youtube.com/watch?v=1UqCjFQiiy0)
 + [Hung-yi Lee ML Course] (http://speech.ee.ntu.edu.tw/~tlkagk/courses_ML17_2.html)
++ [Multiple Linear Regression](http://mezeylab.cb.bscb.cornell.edu/labmembers/documents/supplement%205%20-%20multiple%20regression.pdf)
 
