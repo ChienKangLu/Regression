@@ -38,7 +38,8 @@ Regression is used to find a model for continuous variables. The model can be us
       <td><img src="https://latex.codecogs.com/svg.latex?%5Cbegin%7Barray%7D%7Blr%7D%20n%5Calpha%20%3D%20%5Csum%5Cnolimits_i%20y_i-%5Cbeta%5Csum%5Cnolimits_i%20x_i%20%5C%5C%20%5Calpha%20%3D%20%5Cmu_y-%5Cbeta%5Cmu_x%20%5Cend%7Barray%7D" /></td>
    </tr>
 </Table>
-## Example
+
+## Practice
 <img width="400" src="https://github.com/ChienKangLu/Regression/blob/master/regression/img1.png" />
 
 ## Gradient descent to solve linear regression
