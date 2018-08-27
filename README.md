@@ -123,7 +123,7 @@ I use <img src="https://latex.codecogs.com/svg.latex?%5Cinline%20y%3D%5Calpha%20
 
 ## Reference
 + AI course of international management department in NTUST
-+ [ML Lecture 1: Regression - Demo] (https://www.youtube.com/watch?v=1UqCjFQiiy0)
-+ [Hung-yi Lee ML Course] (http://speech.ee.ntu.edu.tw/~tlkagk/courses_ML17_2.html)
-+ [Multiple Linear Regression] (http://mezeylab.cb.bscb.cornell.edu/labmembers/documents/supplement%205%20-%20multiple%20regression.pdf)
++ [ML Lecture 1: Regression - Demo](https://www.youtube.com/watch?v=1UqCjFQiiy0)
++ [Hung-yi Lee ML Course](http://speech.ee.ntu.edu.tw/~tlkagk/courses_ML17_2.html)
++ [Multiple Linear Regression](http://mezeylab.cb.bscb.cornell.edu/labmembers/documents/supplement%205%20-%20multiple%20regression.pdf)
 
